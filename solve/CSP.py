@@ -15,7 +15,7 @@ class CSP:
         Initiates the current problem to work on.
         """
         self.ROWS = string.ascii_uppercase[:size ** 2]
-        self.COLS = [str(i) for i in range(1, size ** 2)]
+        self.COLS = [str(i) for i in range(1, size ** 2+1)]
         self.size = size
         self.given_cells = given_cells
         self.board = self.create_board()
