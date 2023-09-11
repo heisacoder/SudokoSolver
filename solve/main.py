@@ -6,7 +6,7 @@ import CSP
 import time
 
 if __name__ == "__main__":
-    time1 = time.clock()
+    time1 = time.time()
     sud = None
 
     # The solution method: either CSP or local search
@@ -64,5 +64,5 @@ if __name__ == "__main__":
     else:
         print("Wrong parameters, please try again.")
 
-    time2 = time.clock()
+    time2 = time.time()
     print("Time to solve: ", time2 - time1)
